@@ -35,8 +35,8 @@
 
     <div class="container mx-auto max-w-4xl p-4 sm:p-6 md:p-8 bg-white shadow-lg rounded-lg my-8">
         <h1 class="text-2xl sm:text-3xl font-bold text-center mb-2">隐私政策</h1>
-        <p class="text-center text-sm text-gray-500 mb-6">本政策仅适用于<span class="highlight">广东创智云控科技有限公司</span>的<span class="highlight">画像成漫</span>产品或服务。</p>
-        <p class="text-center text-xs text-gray-400 mb-8">最近更新日期：<span class="highlight">2025年11月17日</span></p>
+        <p class="text-center text-sm text-gray-500 mb-6">本政策仅适用于广东创智云控科技有限公司的漫画生成器产品或服务。</p>
+        <p class="text-center text-xs text-gray-400 mb-8">最近更新日期：2025年11月17日</p>
 
         <div class="bg-gray-50 p-4 rounded-lg mb-8">
              <h3 class="font-bold text-lg mb-2">本政策将帮助您了解以下内容：</h3>
@@ -114,9 +114,83 @@
                 </ol>
                 <p class="mt-4">以下列举了具体的授权合作伙伴，并提供了该第三方的隐私政策链接，我们建议您阅读该第三方的隐私政策：</p>
                 <div class="bg-gray-50 p-4 rounded-md space-y-2">
-                    <p>（1）消息推送服务供应商：由每日互动股份有限公司提供推送技术服务，我们可能会将您的设备平台、设备厂商及品牌、设备型号及系统版本、设备识别码、设备序列号等设备信息，应用列表信息、网络信息以及位置相关信息提供给每日互动股份有限公司，用于为您提供推送技术服务。我们在向您推送消息时，我们可能会授权每日互动股份有限公司进行链路调节，相互促活被关闭的SDK推送进程，保障您可以及时接收到我们向您推送的消息。详细内容请访问《个推用户隐私政策》。</p>
-                    <p>（2）广告、媒体：我们可能会将收集到的信息共享给广告、媒体以及我们的其他授权合作伙伴，用于包括优化广告投放和提升营销效果等商业化用途。</p>
-                    <p><span class="highlight">（3）XXX服务供应商：…………（按照自己集成第三方的服务添加，可以没有，也可以有（4）、（5），格式请参照（1）推送服务供应商）</span></p>
+                    <div class="mt-4 bg-gray-50 p-4 rounded-md">
+                        <p class="mb-4 text-sm text-gray-700">为保障我们客户端的稳定运行、功能实现，使您能够使用更丰富的功能，我们的应用中会嵌入授权合作伙伴的 SDK 或其他类似的应用程序。以下列举了具体的授权合作伙伴，并提供了该第三方的隐私政策链接，我们建议您阅读该第三方的隐私政策：</p>
+                        
+                        <h4 class="font-bold text-md mb-2 mt-4">1. 基础框架及默认模块</h4>
+                        <div class="overflow-x-auto mb-6">
+                            <table class="w-full border-collapse border border-gray-300 bg-white text-sm">
+                                <thead>
+                                    <tr class="bg-gray-200">
+                                        <th class="border border-gray-300 p-2 text-left whitespace-nowrap">SDK名称</th>
+                                        <th class="border border-gray-300 p-2 text-left whitespace-nowrap">使用目的</th>
+                                        <th class="border border-gray-300 p-2 text-left whitespace-nowrap">涉及个人信息</th>
+                                        <th class="border border-gray-300 p-2 text-left whitespace-nowrap">隐私权政策链接</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="border border-gray-300 p-2">uni-app (DCloud)</td>
+                                        <td class="border border-gray-300 p-2">应用基础框架</td>
+                                        <td class="border border-gray-300 p-2">存储的个人文件，设备信息，网络信息</td>
+                                        <td class="border border-gray-300 p-2"><a href="https://dcloud.io/license/appprivacy.html" target="_blank" class="text-blue-600 hover:underline">dcloud.io/license/appprivacy.html</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-gray-300 p-2">阿里weexSDK</td>
+                                        <td class="border border-gray-300 p-2">渲染nvue页面引擎</td>
+                                        <td class="border border-gray-300 p-2">存储的个人文件</td>
+                                        <td class="border border-gray-300 p-2"><a href="https://weexapp.com/zh/" target="_blank" class="text-blue-600 hover:underline">weexapp.com/zh/</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-gray-300 p-2">Fresco图库</td>
+                                        <td class="border border-gray-300 p-2">nvue页面加载图片</td>
+                                        <td class="border border-gray-300 p-2">存储的个人文件</td>
+                                        <td class="border border-gray-300 p-2"><a href="https://www.fresco-cn.org/" target="_blank" class="text-blue-600 hover:underline">fresco-cn.org</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-gray-300 p-2">移动安全联盟OAID</td>
+                                        <td class="border border-gray-300 p-2">获取oaid，用于设备识别</td>
+                                        <td class="border border-gray-300 p-2">设备信息</td>
+                                        <td class="border border-gray-300 p-2"><a href="http://www.msa-alliance.cn/col.jsp?id=122" target="_blank" class="text-blue-600 hover:underline">msa-alliance.cn</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+    
+                        <h4 class="font-bold text-md mb-2">2. 登录与支付服务</h4>
+                        <div class="overflow-x-auto">
+                            <table class="w-full border-collapse border border-gray-300 bg-white text-sm">
+                                <thead>
+                                    <tr class="bg-gray-200">
+                                        <th class="border border-gray-300 p-2 text-left whitespace-nowrap">SDK名称</th>
+                                        <th class="border border-gray-300 p-2 text-left whitespace-nowrap">使用目的</th>
+                                        <th class="border border-gray-300 p-2 text-left whitespace-nowrap">涉及个人信息</th>
+                                        <th class="border border-gray-300 p-2 text-left whitespace-nowrap">隐私权政策链接</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="border border-gray-300 p-2">个验一键登录 (个推)</td>
+                                        <td class="border border-gray-300 p-2">手机号一键登录</td>
+                                        <td class="border border-gray-300 p-2">设备信息，网络信息，手机号码</td>
+                                        <td class="border border-gray-300 p-2"><a href="https://docs.getui.com/privacy/" target="_blank" class="text-blue-600 hover:underline">docs.getui.com/privacy/</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-gray-300 p-2">微信开放平台</td>
+                                        <td class="border border-gray-300 p-2">微信支付</td>
+                                        <td class="border border-gray-300 p-2">存储的个人文件、网络信息</td>
+                                        <td class="border border-gray-300 p-2"><a href="https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&amp;t=weixin_agreement&amp;s=privacy" target="_blank" class="text-blue-600 hover:underline">weixin.qq.com/privacy</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-gray-300 p-2">支付宝开放平台</td>
+                                        <td class="border border-gray-300 p-2">支付宝支付</td>
+                                        <td class="border border-gray-300 p-2">网络信息，设备id，IP地址，OAID</td>
+                                        <td class="border border-gray-300 p-2"><a href="https://render.alipay.com/p/c/k2cx0tg8" target="_blank" class="text-blue-600 hover:underline">alipay.com/privacy</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
                 <p>对我们与之共享用户信息的公司、组织和个人，我们会与其签署严格的保密协定，要求他们按照我们的说明、本隐私政策以及其他任何相关的保密和安全措施来处理用户信息。</p>
 
@@ -172,10 +246,10 @@
 点击「历史记录」可查看图片转换漫画的记录，点击「积分记录」可查看充值已结消费的积分记录。
 2、客服人工电话【0752-2105260】（工作时间：周一至周五 9:00-18:00，法定节假日除外），我们将在 7 个工作日内响应并提供信息清单；
 				</span></p>
-                <p>如果您无法通过上述链接访问这些用户信息，您可以随时使用我们的 Web 表单联系，或发送电子邮件至<span class="highlight">yksky@gdyk-cloud.cn</span>。我们将在30天内回复您的访问请求。</p>
-                <p>对于您在使用我们的产品或服务过程中产生的其他用户信息，只要我们不需要过多投入，我们会向您提供。如果您想行使数据访问权，请发送电子邮件至<span class="highlight">yksky@gdyk-cloud.cn</span>。</p>
+                <p>如果您无法通过上述链接访问这些用户信息，您可以随时使用我们的 Web 表单联系，或发送电子邮件至yksky@gdyk-cloud.cn。我们将在30天内回复您的访问请求。</p>
+                <p>对于您在使用我们的产品或服务过程中产生的其他用户信息，只要我们不需要过多投入，我们会向您提供。如果您想行使数据访问权，请发送电子邮件至yksky@gdyk-cloud.cn。</p>
                 <h3 class="text-lg font-semibold pt-4">（二）更正您的用户信息</h3>
-                <p>当您发现我们处理的关于您的用户信息有错误时，您有权要求我们作出更正。您可以通过“（一）访问您的用户信息”中罗列的方式提出更正申请。如果您无法通过上述链接更正这些用户信息，您可以随时使用我们的 Web 表单联系，或发送电子邮件至<span class="highlight">yksky@gdyk-cloud.cn</span>。我们将在30天内回复您的更正请求。</p>
+                <p>当您发现我们处理的关于您的用户信息有错误时，您有权要求我们作出更正。您可以通过“（一）访问您的用户信息”中罗列的方式提出更正申请。如果您无法通过上述链接更正这些用户信息，您可以随时使用我们的 Web 表单联系，或发送电子邮件至yksky@gdyk-cloud.cn。我们将在30天内回复您的更正请求。</p>
                 <h3 class="text-lg font-semibold pt-4">（三）删除您的用户信息</h3>
                 <p>在以下情形中，您可以向我们提出删除用户信息的请求：</p>
                 <ol class="list-decimal list-inside pl-4 space-y-2">
@@ -200,7 +274,7 @@
                 <p>在某些业务功能中，我们可能仅依据信息系统、算法等在内的非人工自动决策机制作出决定。如果这些决定显著影响您的合法权益，您有权要求我们作出解释，我们也将提供适当的救济方式。</p>
                 <h3 class="text-lg font-semibold pt-4">（八）响应您的上述请求</h3>
                 <p>为保障安全，您可能需要提供书面请求，或以其他方式证明您的身份。我们可能会先要求您验证自己的身份，然后再处理您的请求。</p>
-                <p>我们将在三十天内作出答复。如您不满意，还可以通过以下途径投诉：<span class="highlight">拨打申诉专用客服电话【0752-2105260】（工作时间：周一至周五 9:00-18:00，法定节假日除外），向客服人员提供账号信息、原申请记录及申诉依据，客服将协助登记并启动复核流程。</span></p>
+                <p>我们将在三十天内作出答复。如您不满意，还可以通过以下途径投诉：拨打申诉专用客服电话【0752-2105260】（工作时间：周一至周五 9:00-18:00，法定节假日除外），向客服人员提供账号信息、原申请记录及申诉依据，客服将协助登记并启动复核流程。</p>
                 <p>对于您合理的请求，我们原则上不收取费用，但对多次重复、超出合理限度的请求，我们将视情况收取一定成本费用。对于那些无端重复、需要过多技术手段（例如，需要开发新系统或从根本上改变现行惯例）、给他人合法权益带来风险或者非常不切实际的请求，我们可能会予以拒绝。也请您理解，出于安全保障的考虑、相关法律法规的要求或技术上的限制，对于您的某些请求我们可能无法做出响应，例如以下情形：</p>
                  <ol class="list-decimal list-inside bg-gray-50 p-4 rounded-md space-y-2">
                     <li>与用户信息控制者履行法律法规规定的义务相关的；</li>
@@ -255,8 +329,8 @@
             <div class="space-y-4">
                  <p>如果您对本隐私政策有任何疑问、意见或建议，通过以下方式与我们联系：</p>
                  <ul class="list-none space-y-2 bg-gray-50 p-4 rounded-md">
-                    <li><strong>电子邮件：</strong><span class="highlight">广东省惠州市惠城区江北佳兆业T2</span></li>
-                    <li><strong>电　　话：</strong><span class="highlight">0752-2105260</span></li>
+                    <li><strong>电子邮件：</strong>广东省惠州市惠城区江北佳兆业T2</li>
+                    <li><strong>电　　话：</strong>0752-2105260</li>
                  </ul>
                 
             </div>
